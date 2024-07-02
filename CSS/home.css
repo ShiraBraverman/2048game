@@ -1,0 +1,107 @@
+@import url(
+"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* עיצוב הכרטיסיות */
+.game-card {
+    width: 300px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    text-align: center;
+}
+
+.game-card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.game-card h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.game-card button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.game-card button:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+/* עיצוב תוספות נוספות למשחקים */
+.game-card:nth-child(1) {
+    background-color: #fff8dc;
+}
+
+.game-card:nth-child(2) {
+    background-color: #e6e6fa;
+}
+
+.game-card:nth-child(3) {
+    background-color: #f0e68c;
+}
+
+.game-card:nth-child(4) {
+    background-color: #dcdcdc;
+}
+
+.game-card:nth-child(1) button {
+    background-color: #ffa500;
+}
+
+.game-card:nth-child(2) button {
+    background-color: #9400d3;
+}
+
+.game-card:nth-child(3) button {
+    background-color: #808000;
+}
+
+.game-card:nth-child(4) button {
+    background-color: #708090;
+}
+
+.game-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* עיצוב תגית ה- button בתוך התגית ה- a */
+a button {
+    text-decoration: none;
+    color: inherit;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2048</title>
+  <link rel="stylesheet" href="../CSS/game.css">
+</head>
+
+<body>
+  <div class="nav">
+    <a href="../HTML/log-sign-in.html" target="_parent">login</a>
+    <a href="../HTML/high-scores.html" target="_parent">high score</a>
+    <a href="../HTML/home.html" target="_parent">home</a>
+    <p id="player"></p>
+  </div>
+  <div class="container">
+    <div class="info">
+      <h1>2048</h1>
+      <button id="newGame"> new game</button>
+      <div class="score-container">
+        <div id="new-score">הלח</div>
+        <div class="score-title">score</div>
+        <span id="score">0</span>
+      </div>
+      <div class="best-container">
+        <div class="best-title">best</div>
+        <span id="best">0</span>
+      </div>
+    </div>
+    <span id="result">Join the numbers and get to the <b>2048</b> tile!</span>
+    <div class="levels">
+      <div id="level2048"><br>level 4<br>2048</div>
+      <div id="level1024"><br>level 3<br>1024</div>
+      <div id="level512"><br>level 2<br>512</div>
+      <div id="level256"><br>level 1<br>256</div>
+    </div>
+    <div class="grid"></div>
+
+  </div>
+</body>
+<script src="../JS/game.js" charset="utf-8"></script>
+
+</html>
